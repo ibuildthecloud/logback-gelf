@@ -95,9 +95,9 @@ public class IntegrationTest {
             lastRequest = server.lastRequest();
             assertMapEquals(addField(addField(makeErrorMap(
                     "expected errorjava.net.MalformedURLException: unknown protocol: app\n" +
-                            "\tat java.net.URL.<init>(URL.java:574) ~[na:1.6.0_43]\n" +
-                            "\tat java.net.URL.<init>(URL.java:464) ~[na:1.6.0_43]\n" +
-                            "\tat java.net.URL.<init>(URL.java:413) ~[na:1.6.0_43]\n" +
+                            "\tat java.net.URL.<init>(URL.java:574) ~[na:1.6.0_41]\n" +
+                            "\tat java.net.URL.<init>(URL.java:464) ~[na:1.6.0_41]\n" +
+                            "\tat java.net.URL.<init>(URL.java:413) ~[na:1.6.0_41]\n" +
                             "\tat me.moocar.logbackgelf.In"),
                     "file", "IntegrationTest.java"),
                     "line", "93"),
